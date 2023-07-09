@@ -20,9 +20,7 @@ const personagens = document.querySelectorAll('.personagem');
 personagens.forEach(personagem => {
     personagem.addEventListener('mouseenter', () => {
 
-        if{window.innerwidth < 450}{
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        }
+        
 
         const personagemselecionado = document.querySelector('.selecionado');
        personagemselecionado.classList.remove('selecionado')
